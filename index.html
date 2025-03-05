@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Puzzle Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <header id="headLine">
+        <h1>Drag and Drop!</h1>
+        <p>Solve the puzzle by arranging the pieces correctly.</p>
+    </header>
+
+    <section id="game-boards">
+        <h2 id="puzzle-heading">Puzzle Game Board</h2> <!-- Added heading for accessibility -->
+
+        <!-- Draggable Puzzle Pieces -->
+        <div class="puzzle-pieces">
+            <img id="topLeft" src="images/topLeft0.jpg" class="puzzle-image" alt="Top left puzzle piece" draggable="true">
+            <img id="topRight" src="images/topRight0.jpg" class="puzzle-image" alt="Top right puzzle piece" draggable="true">
+            <img id="bottomLeft" src="images/bottomLeft0.jpg" class="puzzle-image" alt="Bottom left puzzle piece" draggable="true">
+            <img id="bottomRight" src="images/bottomRight0.jpg" class="puzzle-image" alt="Bottom right puzzle piece" draggable="true">
+        </div>
+
+        <!-- Drop Zones for Puzzle Pieces -->
+        <div class="puzzle-board" role="region" aria-labelledby="puzzle-heading">
+            <div class="drop-zone tl"></div>
+            <div class="drop-zone tr"></div>
+            <div class="drop-zone bl"></div>
+            <div class="drop-zone br"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Click a thumbnail to change puzzle pieces!</p>
+        <nav id="buttonHolder">
+            <img src="images/buttonZero.jpg" data-bgref="0" alt="Thumbnail 1 - Change puzzle set">
+            <img src="images/buttonOne.jpg" data-bgref="1" alt="Thumbnail 2 - Change puzzle set">
+            <img src="images/buttonTwo.jpg" data-bgref="2" alt="Thumbnail 3 - Change puzzle set">
+            <img src="images/buttonThree.jpg" data-bgref="3" alt="Thumbnail 4 - Change puzzle set">
+        </nav>
+        <div class="test"></div>
+    </footer>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
