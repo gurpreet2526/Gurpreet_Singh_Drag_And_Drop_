@@ -2,7 +2,7 @@
 
 # Project Description 
 
-This Drag and Drop Puzzle Game challenges players to solve a jigsaw puzzle by dragging pieces into the correct drop zones. It features interactive thumbnails to change puzzle sets, smooth drag-and-drop functionality, and an automatic reset for a seamless experience. 
+In this Drag and Drop Puzzle Game, which is a jigsaw puzzle game, the player has to drop the pieces in order in their drop zones. It has interactive thumbnails to change the puzzle sets, smooth drag and drop functionality, and auto reset to give a great feeling. 
 
 
 
